@@ -1,0 +1,45 @@
+body {
+	background-color: cyan;
+}
+
+h1,
+h2 {
+	text-align: center;
+	color: blue;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+form {
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: lightcyan;
+	color: blueviolet;
+	height: 600px;
+	width: 660px;
+	padding: 20px;
+	position: absolute 0 0 0 0;
+	margin: auto;
+
+}
+
+.label {
+	margin: 10px 0 5px 0;
+}
+
+input[type="submit"] {
+	display: block;
+	width 60px;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	color: #ffffff;
+	background-color: blue;
+	border: 1px, solid, #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+}
