@@ -8,23 +8,104 @@ height: 410px;
 width: 410px;
 }
 
+/* -- wyświetlanie kwadratów --*/ 
 
 .square {
-	background-color: red;
-	width: 130px;
+ 	width: 130px;
 	height: 130px;
 	border: 2px solid #ffffff;
  	display: inline-block;
 }
 
+/* -- wyświetlanie okręgów -- */
+
 .circle {
 	width: 66px;
 	height: 66px;
-	background-color: blue;
-	border: 1px solid #0000;
+	border: 1px solid #000000;
+	background-color: #000000;
 	border-radius: 50%;
 	position: relative;
 	left: 25%;
 	top: 25%;
 
 }
+
+/* -- kolory kwadratów -- */
+
+ .square-1 {
+	background-color: #FE0000;
+}
+
+.square-2 {
+	background-color: #0000FE;
+} 
+
+.square-3 {
+	background-color: #008000;
+}
+
+.square-4 {
+	background-color: #FFFD02;
+}
+
+.square-5 {
+	background-color: #000000; 
+}
+
+.square-6 {
+	background-color:#FEA700;
+}
+
+.square-7 {
+	background-color: #81007F; 
+}
+
+.square-8 {
+	background-color:	#808080;
+}
+
+.square-9 {
+	background-color:	#FFC0CB;
+}
+
+/* -- kolory okręgów -- */
+
+.circle-1 {
+	background-color:	#FFBFCD;
+}
+
+.circle-2 {
+	background-color: #808080;
+}
+
+.circle-3 {
+	background-color:	#81007F;
+}
+
+.circle-4 {
+	background-color: #007F07;
+}
+
+.circle-5 {
+	background-color: #FE0000;
+}
+
+.circle-6 {
+	background-color:	#0000FE;
+}
+
+.circle-7 {
+	background-color: #FDA600;
+}
+
+.circle-8 {
+	background-color: #FFFF01;
+}
+
+.circle-9 {
+	background-color:	#000000;
+}
+
+
+
