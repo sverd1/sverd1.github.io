@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper: {
-	width: 100%;
+	width: 98%;
 }
 
 /* -- style dla rozdzielczości powyżej 1170px -- */
@@ -85,33 +85,33 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 50vh;
+		overflow: visible;
+
 	}
 
 
 	.header .header-conainer {
-		width: 100%;
-		height: 100%;
+		width: 80%;
+		height: 50%;
 		position: absolute;
-		transform: translateX(-300px);
+		transform: translateX(-55%);
+		top: 95%;
 	}
 
 
 
 	.header .header-conainer .main-header {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 		color: #000;
 		text-transform: uppercase;
 		text-align: center;
-
 	}
 
 	.header .header-conainer .main-header::before {
 		content: "I am the best ";
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 
 	}
-
-
 
 }
