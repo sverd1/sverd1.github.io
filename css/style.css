@@ -1,0 +1,44 @@
+h2,
+h3 {
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 15px;
+}
+
+h2 {
+	text-align: center;
+	padding: 100px 0 10px 0;
+	font-size: 1.5em;
+}
+
+h2::before {
+	content: "";
+	position: absolute;
+	width: 25%;
+	height: 1px;
+	background-color: dimgray;
+	left: 50%;
+	bottom: 2px;
+	transform: translateX(-50%);
+}
+
+
+.skills-icon {
+	padding: 25px;
+	text-align: center;
+}
+
+
+.circle {
+	width: 85px;
+	height: 85px;
+	background-color: #F1F9FE;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle i {
+	color: orange;
+	transform: translateY(40%);
+}
